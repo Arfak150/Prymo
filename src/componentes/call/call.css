@@ -1,0 +1,93 @@
+.callSection{
+width: 100%;
+height: 100vh;
+background: url(../../assets/images/callbanner.svg);
+background-size: cover;
+background-position: bottom;
+background-repeat: no-repeat;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callContent{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+}
+
+.callContentText{
+  display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.callContentText strong{
+  font-size: 6rem;
+}
+
+.click{
+  width: max-content;
+}
+
+.click img{
+  width: 25rem;
+}
+
+   /* Animación en loop usando @keyframes */
+   @keyframes pulseAnimation {
+    0% {
+      transform: scale(1); /* Tamaño normal */
+    }
+    50% {
+      transform: scale(1.1); /* Tamaño agrandado */
+    }
+    100% {
+      transform: scale(1); /* Tamaño normal */
+    }
+  }
+
+  /* Aplicar la animación a la imagen */
+  .click img {
+    animation: pulseAnimation 3s ease-in-out infinite; /* 2 segundos de duración, suavidad de animación y repetición infinita */
+  }
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .click img{
+    width: 25vw;
+  }
+
+  .callContent{
+    width: 90%;
+    gap: 3rem;
+  }
+
+  .callContentText strong{
+    font-size: 6vw;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .callContent{
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .click img{
+    width: 50vw;
+  }
+
+  .callContentText strong{
+    font-size: 10vw;
+  }
+}
+
+
+

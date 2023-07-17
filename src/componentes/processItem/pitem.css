@@ -1,0 +1,45 @@
+.pItem{
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 30%;
+  height: max-content;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: start;
+  gap: 1rem;
+  padding: 1rem;
+  line-height: 1.9rem;
+}
+
+.pItem img{
+  width: 35%;
+  margin-bottom: 1rem;
+}
+
+.pItem p{
+  font-size: 1.4rem;
+  line-height: 125%;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1124px) {
+  .pItem{
+    width: 30%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .pItem {
+    width: 90%;
+    gap: 1rem;
+  }
+
+    .pItem img {
+      margin-bottom: 1rem;
+    }
+
+    .pItem p {
+      font-size: 1.2rem;
+    }
+}

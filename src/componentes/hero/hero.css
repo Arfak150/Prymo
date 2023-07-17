@@ -1,0 +1,21 @@
+.hero{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heroText{
+text-align: center;
+color: var(--color-white);
+margin-bottom: 3rem;
+}
+
+.buttons{
+  display: flex;
+  width: 20vw;
+    justify-content: center;
+  gap: 2rem;
+}

@@ -1,0 +1,42 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navTop{
+  position: absolute;
+  top: 5%;
+  width: 85%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBott{
+  position: absolute;
+  top: 78%;
+  width: 85%;
+    height: max-content;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .navTop{
+    width: 90%;
+  }
+
+  .navBott{
+    width: 90%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+
+}

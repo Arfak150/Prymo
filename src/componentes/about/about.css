@@ -1,0 +1,44 @@
+.about{
+  width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 10vh 0rem;
+}
+
+.aboutContent{
+  width: 70%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.processItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .aboutContent{
+    width: 90%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .processItems{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+}

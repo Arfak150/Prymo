@@ -1,0 +1,88 @@
+.projects {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0rem;
+}
+
+.projectsContent {
+  width: 70%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  /* background-color: crimson; */
+}
+
+.projectsRow{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.projectCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 32%;
+  height: max-content;
+  border-radius: 1.39563rem;
+    background: rgba(12, 12, 12, 0.377);
+    backdrop-filter: blur(3.329944610595703px);
+  border: 2px solid rgba(124, 123, 123, 0.055);
+}
+
+.projectCard img{
+  width: 100%;
+}
+
+.projectName{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.projectName i{
+  width: 1.5rem;
+}
+
+.projectCardBottom{
+  padding: 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 1rem;
+}
+
+.projectCardBottom a{
+  margin: 1rem 0rem 0rem;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .projectsContent{
+    width: 90%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .projectsRow{
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .projectCard{
+    width: 90%;
+  }
+}

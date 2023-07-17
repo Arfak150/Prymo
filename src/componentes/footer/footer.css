@@ -1,0 +1,70 @@
+.footer{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.31);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.08) 27.60%, rgba(255, 255, 255, 0.08) 71.35%, rgba(255, 255, 255, 0.09) 83.33%, rgba(255, 255, 255, 0.13) 100%);
+    backdrop-filter: blur(25px);
+    padding: 4rem 0rem;
+}
+
+.footerContent{
+  display: flex;
+  width: 80%;
+  height: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerCenter img{
+  width: 12rem;
+}
+
+.footerCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul{
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+li:hover{
+  color: var(--color-active);
+  transition: 0.2s all ease;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .footerContent{
+    width: 90%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+
+  .footer{
+    height: 50vh;
+  }
+
+  .footerContent{
+    flex-direction: column;
+    height: 90%;
+    gap: 3rem;
+  }
+
+  .freeCallLogo{
+    display: none;
+  }
+
+}

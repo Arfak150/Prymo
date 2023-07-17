@@ -1,0 +1,76 @@
+.packCard{
+  display: flex;
+  width: 30%;
+  height: auto;
+  padding: 3rem 3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.5rem;
+  border-radius: 1rem;
+  background: rgba(12, 12, 12, 0.40);
+  backdrop-filter: blur(3.24473762512207px);
+  border: 1px solid rgba(255, 255, 255, 0.024);
+}
+
+.packCardContent{
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+.packCardContent h4{
+  font-size: 1.1rem;
+  font-weight: 250;
+  letter-spacing: px;
+  color: #fdf7e4b0;
+}
+
+.packItem{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.packItem p{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #FDF7E4;
+}
+
+strong{
+  font-size: 2rem;
+}
+
+.light {
+  border-radius: 1.37669rem;
+  background: linear-gradient(90deg, rgba(253, 168, 255, 0.30) 0%, rgba(0, 0, 0, 0.00) 50%, rgba(115, 242, 255, 0.30) 100%);
+  box-shadow: 0px 4px 40px 0px rgba(186, 224, 255, 0.219);
+  backdrop-filter: blur(22.24473762512207px);
+}
+
+
+.packicon img{
+  width: 15%;
+}
+
+.packicon{
+  margin-bottom: 1rem;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .packCard {
+    width: 33%;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .packCard{
+    width: 100%;
+  }
+}

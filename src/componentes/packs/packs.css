@@ -1,0 +1,49 @@
+.packsSection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  padding: 10vh 0rem;
+}
+
+.packsContent{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  gap: 4rem;
+}
+
+.packsRow{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1124px) {
+  .packsContent {
+    width: 90%;
+  }
+
+  .packsRow{
+    gap: 1rem;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+  .packsRow{
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+
+}
