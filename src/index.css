@@ -225,16 +225,21 @@ small{
 /* Estilos para teléfonos */
 @media screen and (max-width: 767px) {
   h1 {
-      font-size: 2.5rem;
+      font-size: 2.0rem;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.0rem;
     }
 
     .socialMedia {
       flex-direction: row;
       gap: 3rem;
     }
+
+    .socialMedia{
+      display: none;
+    }
+
 }
 

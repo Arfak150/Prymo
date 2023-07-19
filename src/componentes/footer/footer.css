@@ -54,11 +54,13 @@ li:hover{
 @media screen and (max-width: 767px) {
 
   .footer{
-    height: 50vh;
+    height: 55vh;
+    
   }
 
   .footerContent{
     flex-direction: column;
+    justify-content: center;
     height: 90%;
     gap: 3rem;
   }
@@ -66,5 +68,17 @@ li:hover{
   .freeCallLogo{
     display: none;
   }
+
+  ul{
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  a{
+    text-align: center;
+  }
+
+  
+
 
 }

@@ -19,3 +19,8 @@ margin-bottom: 3rem;
     justify-content: center;
   gap: 2rem;
 }
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+
+
+}

@@ -32,11 +32,14 @@ nav{
   }
 
   .navBott{
+    display: none;
     width: 90%;
   }
 }
 
 /* Estilos para teléfonos */
 @media screen and (max-width: 767px) {
-
+.navTop svg{
+  width: 80%;
+}
 }
