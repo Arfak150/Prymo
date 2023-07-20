@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './componentes/home/home'
+import Home from './componentes/home/Home'
 import NotFound from './componentes/notFound/NotFound'
 import AllProjects from './componentes/allProjects/AllProjects'
 
