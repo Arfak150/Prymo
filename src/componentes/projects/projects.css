@@ -33,9 +33,14 @@
   width: 32%;
   height: max-content;
   border-radius: 1.39563rem;
-    background: rgba(12, 12, 12, 0.377);
-    backdrop-filter: blur(3.329944610595703px);
+  background: rgba(12, 12, 12, 0.377);
+  backdrop-filter: blur(3.329944610595703px);
   border: 2px solid rgba(124, 123, 123, 0.055);
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+  transition: transform .1s ease-in-out
 }
 
 .projectCard img{

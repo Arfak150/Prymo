@@ -23,6 +23,11 @@
   align-items: flex-start;
 }
 
+.processItems img:hover{
+  transform: rotate(360deg);
+  transition: transform .5s ease-in-out;
+}
+
 /* Estilos generales para todos los dispositivos */
 
 /* Estilos para tablets */

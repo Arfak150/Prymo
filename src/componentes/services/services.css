@@ -39,6 +39,41 @@
   padding: 2rem;
 }
 
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
+
+.serviceCard::after{
+  pointer-events: none;
+  opacity: 0;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-1),
+    var(--clr-2),
+    var(--clr-5));
+  border-radius: inherit;
+  filter: blur(3.5rem);
+  animation: rotation 12s linear infinite;
+  transition: all .5s ease-in-out;
+}
+
+.serviceCard:hover::after{
+  opacity: 1;
+}
+
+@keyframes rotation {
+  0% {--gradient-angle: 0deg;}
+  100% {--gradient-angle: 360deg;}
+}
+
 .serviceCardsRow{
   display: flex;
   justify-content: space-between;

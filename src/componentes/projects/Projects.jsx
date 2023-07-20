@@ -6,6 +6,7 @@ import Project2 from '../../assets/images/project2.png'
 import Project3 from '../../assets/images/project3.png'
 import Boton2 from '../Boton2'
 import React, { useEffect } from 'react';
+import { NavLink } from 'react-router-dom'
 
 const Projects = () => {
 
@@ -29,7 +30,9 @@ const Projects = () => {
           <ProjectCard imgProject={Project2} projectName='Apileza'/>
           <ProjectCard imgProject={Project3} projectName='Handidact'/>
         </div>
-        <Boton2 text='See All' link='' />
+        <Boton2 text='See All' link='/allProjects' />
+        <NavLink></NavLink>
+        
 
       </div>
     </section>

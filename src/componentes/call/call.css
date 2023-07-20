@@ -37,23 +37,23 @@ background-repeat: no-repeat;
   width: 25rem;
 }
 
-   /* Animación en loop usando @keyframes */
-   @keyframes pulseAnimation {
-    0% {
-      transform: scale(1); /* Tamaño normal */
-    }
-    50% {
-      transform: scale(1.1); /* Tamaño agrandado */
-    }
-    100% {
-      transform: scale(1); /* Tamaño normal */
-    }
+/* Animación en loop usando @keyframes */
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1); /* Tamaño normal */
   }
+  50% {
+    transform: scale(1.1); /* Tamaño agrandado */
+  }
+  100% {
+    transform: scale(1); /* Tamaño normal */
+  }
+}
 
-  /* Aplicar la animación a la imagen */
-  .click img {
-    animation: pulseAnimation 3s ease-in-out infinite; /* 2 segundos de duración, suavidad de animación y repetición infinita */
-  }
+/* Aplicar la animación a la imagen */
+.click img {
+  animation: pulseAnimation 3s ease-in-out infinite; /* 2 segundos de duración, suavidad de animación y repetición infinita */
+}
 
 /* Estilos generales para todos los dispositivos */
 

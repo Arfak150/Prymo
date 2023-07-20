@@ -16,6 +16,14 @@
   --color-black: #1D1D40;
   --color-active: #a0f6ff;
 
+  --clr-1: rgba(239, 112, 241, 0.3);
+  --clr-2: rgba(0, 0, 0, 0.00);
+  --clr-3: rgba(124, 236, 248, 0.3);
+  --clr-4: rgba(253, 168, 255, 0.30);;
+  --clr-5: rgba(238, 165, 240, 0.3);;
+
+
+
   --transition: all 400ms ease;
 }
 
