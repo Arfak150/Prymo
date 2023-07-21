@@ -15,7 +15,7 @@ const Packs = () => {
 
     ScrollReveal().reveal('.packCard', {delay: 800, duration: 2200, distance:'-150px', origin:'bottom',  });
     ScrollReveal().reveal('.light', {delay: 100, duration: 2000, distance:'-150px', origin:'bottom', scale: 1.2});
-  
+
 
 
   }, []);
@@ -28,42 +28,48 @@ const Packs = () => {
       <div className="packsContent">
          <Titulo pretitle="CHOOSE YOUR IDEAL PACK" title="Our Packs"/>
          <div className="packsRow">
-          <PackCard id='asd' icon={icon1} packname="Website Design" price="$400.00" packtext="Lleva el sitio web de empresa al siguiente nivel con los ultimos estandares de diseño con Prymo"
+          <PackCard id='asd' icon={icon1} packname="Website Design" price="$400.00" packtext="Embrace a professional, attractive, and efficient design that reflects your brand and entices new clients."
           items={[
-            <PackItem key={1} itemtext="Analisis de Marca Completo" />,
-            <PackItem key={2} itemtext="Análisis de Sitio Web Actual" />,
-            <PackItem key={3} itemtext="Estrategia de Marketing" />,
-            <PackItem key={4} itemtext="Prototipo y Diseño de Sitio" />,
-            <PackItem key={5} itemtext="Responsivo para Dispositivos" />,
+            <PackItem key={1} itemtext="Complete Brand Analysis" />,
+            <PackItem key={2} itemtext="Competitor Research" />,
+            <PackItem key={3} itemtext="Visual Mockups and Prototypes" />,
+            <PackItem key={4} itemtext="Copywriting" />,
+            <PackItem key={5} itemtext="Content Strategy and Web Marketing" />,
+            <PackItem key={6} itemtext="Web Design" />,
+            <PackItem key={7} itemtext="Responsiveness across all devices and screens" />,
           ]}
           />
 
-          <PackCardLight icon={icon2} packname="Full Website" price="$499.00" packtext="Lleva el sitio web de empresa al siguiente nivel con los ultimos estandares de diseño con Prymo"
+          <PackCardLight icon={icon2} packname="Full Website" price="$499.00" packtext="The best solution to create the perfect website for your business. From Design to Full Development, all at HALF the PRICE!"
           items={[
             <b>
-            <PackItem key={1} itemtext="Todo lo de Diseño Web" />
+            <PackItem key={1} itemtext="
+              All from the Web Design pack" />
             </b>,
-            <PackItem key={2} itemtext="Desarrollo del Sitio Web" />,
-            <PackItem key={3} itemtext="SEO y Posicionamiento" />,
-            <PackItem key={4} itemtext="Adaptable a Dispositivos Mobiles" />,
-            <PackItem key={5} itemtext="Estrategias de Aumento de Ventas" />,
-            <PackItem key={4} itemtext="Email Marketing" />,
+            <PackItem key={2} itemtext="Website Development" />,
+            <PackItem key={3} itemtext="Integration of web analytics tools" />,
+            <PackItem key={4} itemtext="Security seal and SSL certificates" />,
+            <PackItem key={5} itemtext="SEO" />,
+            <PackItem key={6} itemtext="Performance and Speed Optimization" />,
+            <PackItem key={7} itemtext="Monthly Maintenance" />,
           ]}
           />
 
 
-          <PackCard id='asdd' icon={icon3} packname="Full Brand Design" price="$1,099.00" packtext="Lleva el sitio web de empresa al siguiente nivel con los ultimos estandares de diseño con Prymo"
+          <PackCard id='asdd' icon={icon3} packname="Brand Boost" price="$1,099.00" packtext="The ultimate solution to stand out in the competitive digital world! Get your complete ideal website, enhance your social media, and let's work together on a sales-boosting campaign!"
           items={[
             <b>
-            <PackItem key={1} itemtext="Todo lo de Diseño Web" />
+            <PackItem key={1} itemtext="All from the Website Design pack" />
             </b>,
             <b>
-            <PackItem key={1} itemtext="Todo lo de Desarrollo Web" />
+            <PackItem key={1} itemtext="All from the Full Website pack" />
             </b>,
-            <PackItem key={4} itemtext="Hosting" />,
-            <PackItem key={3} itemtext="Branding Profesional" />,
-            <PackItem key={2} itemtext="Diseño de Redes Sociales" />,
-            <PackItem key={5} itemtext="Mantenimiento Deluxe" />,
+            <PackItem key={2} itemtext="Hosting" />,
+            <PackItem key={3} itemtext="Complete Brand Design" />,
+            <PackItem key={4} itemtext="Social Media Content Design" />,
+            <PackItem key={5} itemtext="Banners and Promotional Graphics" />,
+            <PackItem key={6} itemtext="Digital Marketing Campaigns" />,
+            <PackItem key={7} itemtext="3 Months of Free Maintenance" />,
           ]}
           />
          </div>

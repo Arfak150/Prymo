@@ -1,7 +1,7 @@
 import "../projects/projects.css"
 import Star from '../../assets/icons/star.svg'
 
-const ProjectCard = ({imgProject, projectName}) => {
+const ProjectCard = ({imgProject, projectName, text}) => {
 
 
 
@@ -17,7 +17,7 @@ const ProjectCard = ({imgProject, projectName}) => {
       <h4>{projectName}</h4>
       </div>
         <p>
-          Analizamos tu marca entera, tu vision y proyeccion, tus clientes y competencia para establecer prioridades y objetivos con el fin de crear el sitio web perfecto.
+          {text}
         </p>
       <a href=""><b>Ver más</b></a>
       </div>

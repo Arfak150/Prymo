@@ -16,8 +16,8 @@ const Projects = () => {
     // ScrollReveal().reveal('.projectCard', {delay: 300, duration: 850, distance:'-200px', origin:'right'});
     ScrollReveal().reveal('.aboutContent .textoPrincipal p', {delay: 100, duration: 800, distance:'-120px', origin:'right'});
     ScrollReveal().reveal('.projectCard', {delay: 200, duration: 900, distance:'-200px', origin:'right', interval: 350 });
-  
-  
+
+
   }, []);
 
 
@@ -26,13 +26,13 @@ const Projects = () => {
       <div className="projectsContent">
       <Titulo pretitle="CHECK THESE PRIME WEBSITES" title="Most Recent Projects"/>
         <div className="projectsRow">
-          <ProjectCard imgProject={Project1} projectName='Block House'/>
-          <ProjectCard imgProject={Project2} projectName='Apileza'/>
-          <ProjectCard imgProject={Project3} projectName='Handidact'/>
+          <ProjectCard imgProject={Project1} projectName='Block House' text='A multi-space focused on innovation and technology, got a rebranding process, which required updating their website with the new brand style, so we took it to the next level by...'/>
+          <ProjectCard imgProject={Project2} projectName='Apileza' text='Immerse yourself in the sweet and captivating world of artisanal honey. We elevated Apileza’s digital presence to new heights with a cutting-edge website...'/>
+          <ProjectCard imgProject={Project3} projectName='Handidact' text='Behold the digital realm of Handidact, the indie video game developer startup! Our mission was to craft a mesmerizing website that captivates users and showcases their brilliant...'/>
         </div>
-        <Boton2 text='See All' link='/allProjects' />
+        <Boton2 text='See All Projects' link='/allProjects' />
         <NavLink></NavLink>
-        
+
 
       </div>
     </section>

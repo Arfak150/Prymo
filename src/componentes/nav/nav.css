@@ -6,18 +6,37 @@ nav{
 }
 
 .navTop{
-  position: absolute;
-  top: 5%;
-  width: 85%;
+  position: fixed;
+  top: 0%;
+  width: 100%;
   height: 10vh;
+  padding: 0rem 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%);
+    backdrop-filter: blur(15px);
+}
+
+.navTop ul{
+  display: flex;
+  gap: 2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navTop ul a{
+  transition: all 0.4s ease-in-out;
+}
+
+.navTop ul a:hover{
+  font-weight: 700;
+  color: var(--color-active);
 }
 
 .navBott{
   position: absolute;
-  top: 78%;
+  top: 80%;
   width: 85%;
     height: max-content;
   display: flex;
