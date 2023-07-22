@@ -1,0 +1,150 @@
+.contact{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactContainer{
+  width: 70%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 6rem 0rem;
+}
+
+.contactContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  gap: 2rem;
+}
+
+.contactContentLeft{
+  width: 50%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactContentRight{
+  width: 50%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 6rem;
+}
+
+form{
+  width: 100%;
+}
+
+form input,
+select,
+textarea {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0rem;
+  color: var(--color-primary);
+  box-sizing: border-box;
+  border-radius: 0.56756rem;
+  border: 1.816px solid rgba(116, 116, 116, 0.15);
+  background: var(--austin, linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(147, 147, 147, 0.15) 100%));
+  backdrop-filter: blur(13.621622085571289px);
+  font-family: 'Aspekta Variable', sans-serif;
+}
+
+form ::placeholder {
+  color: var(--color-primary);
+}
+
+form select,
+option {
+  cursor: pointer;
+}
+
+form select {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+form select option{
+  color: var(--color-primary);
+  background-color: #0a0a0af1;
+}
+
+/* Estilos generales para todos los dispositivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 1324px) {
+  .contactContainer {
+    width: 90%;
+  }
+  .contactContentLeft{
+    width: 60%;
+  }
+
+  .contactContentRight{
+    width: 40%;
+  }
+
+  .contactContentRight strong{
+    font-size: 1.3rem;
+  }
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {
+
+  .contactContainer{
+    padding: 3rem 0rem 0rem;
+  }
+
+  .contactContent {
+      flex-direction: column;
+      gap: 6rem;
+    }
+
+        form input,
+        select,
+        textarea {
+          padding: 1rem;
+          margin: 1rem 0rem;
+          color: var(--color-primary);
+          box-sizing: border-box;
+          border-radius: 0.56756rem;
+          border: 1.816px solid rgba(116, 116, 116, 0.15);
+          background: var(--austin, linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(147, 147, 147, 0.15) 100%));
+          backdrop-filter: blur(13.621622085571289px);
+          font-family: 'Aspekta Variable', sans-serif;
+        }
+
+    .contactContentLeft {
+      width: 100%;
+    }
+
+    .contactContentRight {
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    .contactContentRight strong {
+      font-size: 1.3rem;
+    }
+}

@@ -74,7 +74,7 @@
 /* Estilos generales para todos los dispositivos */
 
 /* Estilos para tablets */
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1324px) {
   .projectsContent{
     width: 90%;
   }

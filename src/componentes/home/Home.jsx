@@ -1,4 +1,3 @@
-import React from 'react'
 import './home.css'
 import Nav from '../nav/Nav'
 import Hero from '../hero/Hero'
@@ -8,10 +7,10 @@ import Packs from '../packs/Packs'
 import Services from '../services/Services'
 import Call from '../call/Call'
 import Footer from '../footer/Footer'
+import Contact from '../contact/Contact'
 
 const Home = () => {
   return (
-    
 
     <>
     <Nav/>
@@ -21,9 +20,9 @@ const Home = () => {
     <Packs/>
     <Services/>
     <Call/>
+    <Contact/>
     <Footer/>
     </>
-
 
   )
 }

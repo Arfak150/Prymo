@@ -44,7 +44,7 @@ li:hover{
 /* Estilos generales para todos los dispositivos */
 
 /* Estilos para tablets */
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1324px) {
   .footerContent{
     width: 90%;
   }
@@ -55,7 +55,7 @@ li:hover{
 
   .footer{
     height: 55vh;
-    
+
   }
 
   .footerContent{
@@ -78,7 +78,7 @@ li:hover{
     text-align: center;
   }
 
-  
+
 
 
 }

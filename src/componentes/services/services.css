@@ -30,13 +30,13 @@
   justify-content: center;
   align-items: left;
   gap: 1rem;
-  width: 20rem;
+  width: 100%;
   height: max-content;
   border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.034);
+  border: 2px solid rgba(255, 255, 255, 0.220);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.096) 0%, rgba(147, 147, 147, 0.048) 100%);
-  backdrop-filter: blur(10px);
-  padding: 2rem;
+  backdrop-filter: blur(5px);
+  padding: 1.5rem;
 }
 
 @property --gradient-angle{
@@ -76,10 +76,11 @@
 
 .serviceCardsRow{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 3rem;
-  width: max-content;
+  width: 100%;
+
 }
 
 .serviceCardTitle img{
@@ -89,14 +90,9 @@
 /* Estilos generales para todos los dispositivos */
 
 /* Estilos para tablets */
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1324px) {
   .servicesContent{
     width: 90%;
-  }
-
-  .serviceCardsRow{
-    width: 90%;
-    justify-content: center;
   }
 }
 

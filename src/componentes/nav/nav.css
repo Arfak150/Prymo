@@ -7,21 +7,24 @@ nav{
 
 .navTop{
   position: fixed;
+  z-index: 999;
   top: 0%;
   width: 100%;
-  height: 10vh;
-  padding: 0rem 8%;
+  height: 15vh;
+  padding: 0rem 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%);
-    backdrop-filter: blur(15px);
+}
+
+.navTop svg{
+  width: 9rem;
 }
 
 .navTop ul{
   display: flex;
   gap: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.2rem;
 }
 
@@ -30,29 +33,41 @@ nav{
 }
 
 .navTop ul a:hover{
-  font-weight: 700;
-  color: var(--color-active);
+  font-weight: 400;
+  color: #FEC7FF;
+    background-image: -webkit-linear-gradient(0deg, #FEC7FF 0%, #FDF7E4 50%, #73F2FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .navBott{
   position: absolute;
-  top: 80%;
+  top: 75%;
   width: 85%;
     height: max-content;
   display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.navBott svg{
+  transition: all .3s ease-in-out;
+}
+
+.navBott svg:hover{
+  scale: 120%;
 }
 
 /* Estilos para tablets */
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1324px) {
   .navTop{
-    width: 90%;
+    width: 95%;
   }
 
   .navBott{
-    display: none;
-    width: 90%;
+    width: 80%;
   }
 }
 

@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="projectsRow">
           <ProjectCard imgProject={Project1} projectName='Block House' text='A multi-space focused on innovation and technology, got a rebranding process, which required updating their website with the new brand style, so we took it to the next level by...'/>
           <ProjectCard imgProject={Project2} projectName='Apileza' text='Immerse yourself in the sweet and captivating world of artisanal honey. We elevated Apileza’s digital presence to new heights with a cutting-edge website...'/>
-          <ProjectCard imgProject={Project3} projectName='Handidact' text='Behold the digital realm of Handidact, the indie video game developer startup! Our mission was to craft a mesmerizing website that captivates users and showcases their brilliant...'/>
+          <ProjectCard imgProject={Project3} projectName='Handidact' text='Behold the digital realm of Handidact, the indie video game developer startup! Our mission was to craft a mesmerizing website that captivates users and showcases their...'/>
         </div>
         <Boton2 text='See All Projects' link='/allProjects' />
         <NavLink></NavLink>

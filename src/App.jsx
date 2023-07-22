@@ -7,6 +7,7 @@ import Home from './componentes/home/Home'
 import NotFound from './componentes/notFound/NotFound'
 import AllProjects from './componentes/allProjects/AllProjects'
 
+
 function App() {
 
   return (
@@ -18,8 +19,8 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </BrowserRouter>
-    
-  
+
+
   )
 }
 

@@ -107,6 +107,7 @@ h5{
 
 .primary{
   position: relative;
+  cursor: pointer;
   z-index: 1;
     font-weight: 400;
   border-radius: 0.56263rem;
@@ -187,7 +188,11 @@ small{
 .socialMedia {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 1.5rem;
+}
+
+.socialMedia svg{
+  width: 1.8rem;
 }
 
 /* Estilos generales para todos los dispositivos */

@@ -1,6 +1,7 @@
 import './hero.css'
 import Boton1 from '../Boton1'
 import Boton2 from '../Boton2'
+import Videolink from '../../assets/images/bgvideo.mp4'
 import React, { useEffect } from 'react';
 
 const Hero = () => {
@@ -18,7 +19,11 @@ const Hero = () => {
 
   return (
     <div>
-      <sec  tion className='hero'>
+      <section className='hero'>
+        <video className="hero-video" autoPlay loop muted>
+          <source src={Videolink} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="heroText">
         <p>THE FIRST AI-POWERED WEB DEVELOPMENT AGENCY</p>
         <br />
@@ -33,7 +38,7 @@ const Hero = () => {
         <Boton2 text="See More" link="#about"/>
         </div>
 
-      </sec>
+      </section>
     </div>
   )
 }
