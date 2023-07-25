@@ -1,13 +1,12 @@
 
-const TextoPrincipal = ({small, p, b}) => {
+const TextoPrincipal = () => {
   return (
     <div className="textoPrincipal">
       <h2>
-      <small>WHAT WE DO</small>
+      <small>Descubre el Poder de la Eficiencia Impulsada por la IA</small>
       </h2>
       <br />
-      <p>Imagine the existence of a machine capable of analyzing all the data from your company and brand, utilizing that information to create a flawlessly precise website designed to assist you in achieving your objectives.
-      <b> That’s Prymo.</b> </p>
+      <p><strong>En un mundo empresarial en constante evolución, la automatización inteligente marca la diferencia entre la mediocridad y la excelencia. </strong> En Prymo, nos apasiona crear sistemas de IA que aceleran tus procesos y elevan tu negocio a la cima de la innovación competitiva. Confía en nuestra experiencia y permítenos liberar a tu equipo de tareas repetitivas, para que puedan enfocarse en lo que realmente importa: <b> hacer crecer tu empresa. </b></p>
     </div>
   )
 }

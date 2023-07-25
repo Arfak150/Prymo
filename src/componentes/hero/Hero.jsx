@@ -25,17 +25,17 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         <div className="heroText">
-        <p>THE FIRST AI-POWERED WEB DEVELOPMENT AGENCY</p>
+        <p>Obten un Sistema de IA Automatizado que te sea util, sino no pagas.</p>
         <br />
         <h1>
-        Get <b> the perfect website </b> <br />
-        for your business today.
+        Potenciamos su Negocio <br />
+        Con <b> Soluciones IA </b>
+          de Vanguardia
         </h1>
         </div>
 
         <div className="buttons">
-        <Boton1 text="Become Prime" link="https://calendly.com/prymoagencia/30min" />
-        <Boton2 text="See More" link="#about"/>
+        <Boton1 text="Quiero Mejorar Mi Negocio" link="https://calendly.com/prymoagencia/30min" />
         </div>
 
       </section>

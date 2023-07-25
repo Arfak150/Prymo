@@ -2,7 +2,7 @@ import './home.css'
 import Nav from '../nav/Nav'
 import Hero from '../hero/Hero'
 import About from '../about/About'
-import Projects from '../projects/Projects'
+// import Projects from '../projects/Projects'
 import Packs from '../packs/Packs'
 import Services from '../services/Services'
 import Call from '../call/Call'
@@ -16,7 +16,7 @@ const Home = () => {
     <Nav/>
     <Hero/>
     <About/>
-    <Projects/>
+    {/* <Projects/> */}
     <Packs/>
     <Services/>
     <Call/>

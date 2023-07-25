@@ -5,7 +5,6 @@ import PackCardLight from './packCard/PackCardLight'
 import icon1 from '../../assets/icons/pack1.svg';
 import icon2 from '../../assets/icons/pack2.svg';
 import icon3 from '../../assets/icons/pack3.svg';
-import PackItem from './packCard/PackItem'
 import React, { useEffect } from 'react';
 
 
@@ -26,51 +25,20 @@ const Packs = () => {
   return (
     <section className='packsSection'>
       <div className="packsContent">
-         <Titulo pretitle="CHOOSE YOUR IDEAL PACK" title="Our Packs"/>
+         <Titulo pretitle="Soluciones impulsadas por IA" title="Nuestros servicios"/>
          <div className="packsRow">
-          <PackCard id='asd' icon={icon1} packname="Website Design" price="$400.00" packtext="Embrace a professional, attractive, and efficient design that reflects your brand and entices new clients."
-          items={[
-            <PackItem key={1} itemtext="Complete Brand Analysis" />,
-            <PackItem key={2} itemtext="Competitor Research" />,
-            <PackItem key={3} itemtext="Visual Mockups and Prototypes" />,
-            <PackItem key={4} itemtext="Copywriting" />,
-            <PackItem key={5} itemtext="Content Strategy and Web Marketing" />,
-            <PackItem key={6} itemtext="Web Design" />,
-            <PackItem key={7} itemtext="Responsiveness across all devices and screens" />,
-          ]}
+          <PackCard id='asd' icon={icon1} packname="Desarrollo de chatbots de IA"
+          packtext="Nos especializamos en implementar Chatbots personalizados, los últimos softwares de IA y procesos de automatización con tres objetivos principales en mente: mejorar la experiencia del cliente, agilizar las operaciones y permitirle superar a los competidores."
           />
 
-          <PackCardLight icon={icon2} packname="Full Website" price="$499.00" packtext="The best solution to create the perfect website for your business. From Design to Full Development, all at HALF the PRICE!"
-          items={[
-            <b>
-            <PackItem key={1} itemtext="
-              All from the Web Design pack" />
-            </b>,
-            <PackItem key={2} itemtext="Website Development" />,
-            <PackItem key={3} itemtext="Integration of web analytics tools" />,
-            <PackItem key={4} itemtext="Security seal and SSL certificates" />,
-            <PackItem key={5} itemtext="SEO" />,
-            <PackItem key={6} itemtext="Performance and Speed Optimization" />,
-            <PackItem key={7} itemtext="Monthly Maintenance" />,
-          ]}
+          <PackCardLight icon={icon2} packname="Automatizacion de Tareas con Sistemas de IA"
+          packtext="Después de la sesión de descubrimiento inicial, lo guiaremos en la identificación de oportunidades para implementar soluciones de IA y automatización específicamente adaptadas a las necesidades de su negocio, ahorrándole tiempo de manera efectiva y promoviendo el crecimiento."
           />
 
 
-          <PackCard id='asdd' icon={icon3} packname="Brand Boost" price="$1,099.00" packtext="The ultimate solution to stand out in the competitive digital world! Get your complete ideal website, enhance your social media, and let's work together on a sales-boosting campaign!"
-          items={[
-            <b>
-            <PackItem key={1} itemtext="All from the Website Design pack" />
-            </b>,
-            <b>
-            <PackItem key={1} itemtext="All from the Full Website pack" />
-            </b>,
-            <PackItem key={2} itemtext="Hosting" />,
-            <PackItem key={3} itemtext="Complete Brand Design" />,
-            <PackItem key={4} itemtext="Social Media Content Design" />,
-            <PackItem key={5} itemtext="Banners and Promotional Graphics" />,
-            <PackItem key={6} itemtext="Digital Marketing Campaigns" />,
-            <PackItem key={7} itemtext="3 Months of Free Maintenance" />,
-          ]}
+          <PackCard id='asdd' icon={icon3} packname="Capacitación y soporte con IA"
+          packtext="Brindamos capacitación sobre cómo usar e implementar herramientas de IA y ofrecemos soporte continuo para garantizar una utilización y resultados óptimos mientras usamos nuestras soluciones de Chatbot de IA personalizadas."
+
           />
          </div>
       </div>

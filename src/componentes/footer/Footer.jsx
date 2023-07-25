@@ -13,10 +13,9 @@ const Footer = () => {
         <div className="footerCenter">
           <img src={Logo} alt="Logo de Prymo" />
           <ul>
-            <a href=""><li>About Us</li></a>
-            <a href=""><li>The Proccess</li></a>
-            <a href=""><li>Packs</li></a>
-            <a href=""><li>Services</li></a>
+            <a href=""><li>Nosotros</li></a>
+            <a href=""><li>Servicios</li></a>
+            <a href=""><li>Contacto</li></a>
             <a href=""><li>Free Call</li></a>
           </ul>
           <p>© 2023 Prymo Agency. All rights reserved.</p>

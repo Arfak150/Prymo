@@ -16,9 +16,8 @@ margin-bottom: 3rem;
 
 .buttons{
   display: flex;
-  width: 20vw;
-    justify-content: center;
-  gap: 2rem;
+  width: max-content;
+  justify-content: center;
 }
 
 video{
@@ -30,3 +29,14 @@ video{
   object-fit: cover;
   z-index: -1;
 }
+
+/* Estilos para tablets */
+@media screen and (max-width: 1324px) {
+  .hero {
+    width: 90%;
+  }
+
+}
+
+/* Estilos para teléfonos */
+@media screen and (max-width: 767px) {}

@@ -47,7 +47,7 @@ body {
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 
@@ -88,10 +88,11 @@ h5{
   font-size: 1.2rem;
 }
 
+
 .btn{
   width: max-content;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   border-radius: 0.4rem;
   font-size: 1rem;
   display: flex;
@@ -101,6 +102,8 @@ h5{
 
 .btn a{
   width: max-content;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 /* BOTON 1 */
@@ -171,10 +174,9 @@ small{
   font-weight: 400;
 }
 
-.textoPrincipal p {
+
+.textoPrincipal p,.textoPrincipal strong {
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
 }
 
 .titulo{

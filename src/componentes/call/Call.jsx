@@ -7,11 +7,11 @@ const Call = () => {
     <section className='callSection' id='call'>
       <div className="callContent">
         <div className="callContentText">
-        <small>LET'S TALK</small>
+        <small>¿Listo para dar tus primeros pasos con IA?</small>
         <b>
-        <strong>Schedule a <br />
-        FREE ZOOM <br />
-        CALL with us</strong>
+        <strong>Llamada <br />
+        gratuita <br />
+        de Consulta</strong>
         </b>
         </div>
 

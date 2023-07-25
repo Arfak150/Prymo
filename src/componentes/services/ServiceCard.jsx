@@ -8,7 +8,7 @@ const ServiceCard = ({ icon,serviceName, serviceText }) => {
   useEffect(() => {
 
     ScrollReveal().reveal('.serviceCard', {delay: 150, duration: 800, distance:'-100px', origin:'top', interval: 200, scale: 1.1});
-  
+
 
 
   }, []);
@@ -20,7 +20,6 @@ const ServiceCard = ({ icon,serviceName, serviceText }) => {
       <h5>{serviceName}</h5>
       </div>
       <p>{serviceText}</p>
-      <Boton2 text="Saber Más" link="#call"/>
     </div>
   )
 }
