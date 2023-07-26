@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
 
         <div className="buttons">
-        <Boton1 text="Quiero Mejorar Mi Negocio" link="https://calendly.com/prymoagencia/30min" />
+        <Boton1 text="Quiero Mejorar Mi Negocio" link="https://calendly.com/prymoagencia/llamadagratuita" />
         </div>
 
       </section>

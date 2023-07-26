@@ -4,7 +4,7 @@ import click from '../../assets/icons/click.svg'
 
 const Call = () => {
   return (
-    <section className='callSection' id='call'>
+    <section className='callSection' id='freecall'>
       <div className="callContent">
         <div className="callContentText">
         <small>¿Listo para dar tus primeros pasos con IA?</small>

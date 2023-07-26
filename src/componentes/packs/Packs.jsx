@@ -23,7 +23,7 @@ const Packs = () => {
 
 
   return (
-    <section className='packsSection'>
+    <section id='services' className='packsSection'>
       <div className="packsContent">
          <Titulo pretitle="Soluciones impulsadas por IA" title="Nuestros servicios"/>
          <div className="packsRow">

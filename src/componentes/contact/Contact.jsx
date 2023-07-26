@@ -4,7 +4,7 @@ import ContactForm from '../form/ContactForm'
 
 const Contact = () => {
   return (
-    <section className="contact" >
+    <section id='contact' className="contact" >
       <div className="contactContainer">
         <img src={Face} alt="" />
         <div className='formTitle'>

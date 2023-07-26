@@ -37,7 +37,9 @@ video{
   display: block;
   width: 20%;
   height: 620px;
+  z-index: 999999999999;
 }
+
 
 /* Estilos para tablets */
 @media screen and (max-width: 1324px) {

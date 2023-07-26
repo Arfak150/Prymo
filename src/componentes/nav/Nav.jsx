@@ -39,10 +39,10 @@ const Nav = () => {
           </a>
 
           <ul>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
-            <li><a href=""> <b> Regalo! </b> </a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#freecall"> <b> Regalo! </b> </a></li>
           </ul>
 
         </div>
