@@ -20,6 +20,7 @@ const Hero = () => {
   return (
     <div>
       <section className='hero'>
+        <iframe className='prymoBot' src='https://www.stack-ai.com/embed/f48c4a50-1282-4701-8687-ff0315b914f8/2ea8cb57-667c-47f9-9667-844b58c7d9b1/64c07ecc80e7479fe6ca3152' ></iframe>
         <video className="hero-video" autoPlay loop muted>
           <source src={Videolink} type="video/mp4" />
           Your browser does not support the video tag.
@@ -32,6 +33,7 @@ const Hero = () => {
         Con <b> Soluciones IA </b>
           de Vanguardia
         </h1>
+
         </div>
 
         <div className="buttons">

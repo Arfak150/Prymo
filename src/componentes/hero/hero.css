@@ -30,6 +30,15 @@ video{
   z-index: -1;
 }
 
+.prymoBot{
+  position: fixed;
+  top: 25%;
+  right: 2%;
+  display: block;
+  width: 20%;
+  height: 620px;
+}
+
 /* Estilos para tablets */
 @media screen and (max-width: 1324px) {
   .hero {

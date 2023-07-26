@@ -45,12 +45,12 @@ nav{
 .navBott{
   position: absolute;
   top: 75%;
-  width: 100%;
+  width: 80%;
     height: max-content;
   display: flex;
     justify-content: space-between;
     align-items: flex-end;
-  padding: 0rem 10%;
+  z-index: 999;
 }
 
 .navBott svg{
