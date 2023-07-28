@@ -62,6 +62,82 @@ nav{
   scale: 120%;
 }
 
+
+.mobile-nav {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 9999;
+  width: 100%;
+  height: max-content;
+  padding: 1rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
+  height: 2rem;
+  padding: 0.1rem;
+  aspect-ratio: 1;
+  margin-right: 6px;
+  z-index: 99999;
+}
+
+.bar-top,
+.bar-middle,
+.bar-bottom {
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+
+.hamburger.active .bar-top {
+  transform: rotate(45deg);
+}
+
+.hamburger.active .bar-middle {
+  transform: translateX(1rem);
+  opacity: 0;
+}
+
+.hamburger.active .bar-bottom {
+  transform: rotate(-45deg);
+}
+
+.mobile-links{
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+font-size: 3rem;
+z-index: 999;
+background-color: rgba(0, 0, 0, 0.733);
+backdrop-filter: blur(10px);
+}
+
+.mobile-links ul{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.off {
+  display: none;
+}
+
 /* Estilos para tablets */
 @media screen and (max-width: 1324px) {
   .navTop{
@@ -80,4 +156,20 @@ nav{
 .navTop svg{
   width: 80%;
 }
+
+.navTop{
+  display: none;
+}
+
+.mobile-nav{
+  display: flex;
+  padding: 2rem;
+}
+
+.mobile-nav svg{
+  width: 3rem;
+  height: max-content;
+}
+
+
 }

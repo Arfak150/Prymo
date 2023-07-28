@@ -17,8 +17,6 @@
   gap: 6rem;
 }
 
-
-
 /* Estilos generales para todos los dispositivos */
 
 /* Estilos para tablets */
@@ -30,5 +28,8 @@
 
 /* Estilos para teléfonos */
 @media screen and (max-width: 767px) {
+
+  .aboutContent{
+  }
 
 }

@@ -50,4 +50,12 @@ video{
 }
 
 /* Estilos para teléfonos */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+  .hero{
+    width: 100%;
+  }
+
+  .heroText{
+    width: 94%;
+  }
+}

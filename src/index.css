@@ -256,5 +256,10 @@ small{
       display: none;
     }
 
+    .textoPrincipal p,
+    .textoPrincipal strong {
+      font-size: 1.5rem;
+    }
+
 }
 
